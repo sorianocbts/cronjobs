@@ -1,0 +1,20 @@
+{
+  "name": "statuscheck",
+  "version": "1.0.0",
+  "description": "Script to check the status for cbtseminary.org",
+  "main": "statusCheck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "nexe -r .env"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
